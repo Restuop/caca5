@@ -4,7 +4,7 @@
 // Zifabotz
 
 let fs = require('fs')
-global.owner = ['6285828764046', '6285828764046','6285828764046', '6285828764046', '6285828764046'] // Letakan nomor kamu disini
+global.owner = ['6285828764046', '6289696163176','6285828764046', '6285828764046', '6285828764046'] // 6289696163176
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
