@@ -42,12 +42,12 @@ global.APIKeys = { // APIKey nya disini
 
 // Sticker WM
 global.packname = 'rozi'
-global.author = 'zifa'
+global.author = 'Ryu'
 
 global.wait = '▰▰▰▰▱▱▱▱▱▱ ʟᴏᴀᴅɪɴɢ...'
-global.eror = '「❗」Server LAGI ERROR !'
+global.eror = '「❗」Server  ERROR !'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© zifabotz' //change the watermark 
+global.watermark = '© Ryu botz' //change the watermark 
 global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/3c11a4cda6bce78a2e2f7.jpg'
 
