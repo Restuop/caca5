@@ -225,7 +225,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪cacabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-║│➸ Nama bot: *zifabotz*
+║│➸ Nama bot: *cacabotz*
 ║│➸ *${conn.blocklist.length}* Terblock
 ║│➸ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
@@ -234,40 +234,40 @@ _____•••••••••
 ⬣━  Powered By Ryu  ━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
                         "footerText": "*group offc bot https://bit.ly/3IKkoym*",
-                        "buttonText": "««TAMPILAN MENU««",
+                        "buttonText": "CLICK MENU",
                         "listType": "SINGLE_SELECT",
                         "sections": [
                             {
                                 "rows": [{
-                                    "title":  "|📥| ❯╾Donasi╼-",
+                                    "title":  "|📥| ❯────Donasi────",
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title":      "|🖼️| ❯╾Daftar╼-",
+                                    "title":      "|🖼️| ❯────Daftar────",
                                     "description": "Daftar diri anda di cacabotz",
                                     "rowId": ".daftar"
                                 }, {
- "title":      "|🎲| ❯╾Setelan grub╼-",
+ "title":      "|🎲| ❯────Setelan grub────",
                                     "description": "setelan grub",
                                     "rowId": ".setelangrub"
                                 }, {
-"title":      "|🛒| ❯╾Store Menu╼-",
+"title":      "|🛒| ❯────Store Menu────",
                                     "description": "store di cacabotz",
                                     "rowId": ".iklan"
                                 }, {
-  "title":  "|👩‍💻| ❯╾jadibot╼-",
-                                    "description": "bergabung bersama bot zifa",
+  "title":  "|👩‍💻| ❯────jadibot────",
+                                    "description": "bergabung bersama bot caca",
                                     "rowId": ".jadibot"
                                 }, {
-  "title":  "|🙇‍♂️| ❯╾group╼-",
-                                    "description": "bergabung di grub bersama bot zifa",
+  "title":  "|🙇‍♂️| ❯────group────",
+                                    "description": "bergabung di grub bersama bot caca",
                                     "rowId": ".gcbot"
                                 }, {
-  "title":  "|📒| ❯╾biodata owner╼-",
+  "title":  "|📒| ❯────biodata owner────",
                                     "description": "informasi owner",
                                     "rowId": ".infoowner"
                                 }, {
-                                    "title": "|💵|  ❯╾Sewa bot╼-",
+                                    "title": "|💵|  ❯────Sewa bot────",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa bot.",
                                     "rowId": ".sewa"
                                 }],
@@ -311,7 +311,7 @@ _____•••••••••
                                     "rowId": ".? xp"
                                 }, { 
                                     "title": "|🐼|─────「 8 」",
-                                    "description": "Astarfirullah,Tobat Banh",
+                                    "description": "MENU BKV",
                                     "rowId": ".? nsfw"
                                 }, { 
                                     "title": "|🖼️|─────「 9 」",
@@ -403,7 +403,7 @@ _____•••••••••
                                     "rowId": ".waifu"
                                 }, { 
 "title": "|🅿️|─────「 31 」",
-                                    "description": "profile anda di zifabotz",
+                                    "description": "profile anda di cacabotz",
                                     "rowId": ".profile"
                                 }, { 
                                     "title": "|👩‍⚖️|─────「 32 」",
@@ -554,16 +554,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "udah malam tidur gih •>•"
   if (time >= 4) {
-    res = "Selamat pagi hari  🌅"
+    res = "Selamat pagi   🌅"
   }
   if (time > 10) {
-    res = "Selamat siang hari 🏜️"
+    res = "Selamat siang  🏜️"
   }
   if (time >= 15) {
-    res = "Selamat sore hari  🌄"
+    res = "Selamat sore   🌄"
   }
   if (time >= 18) {
-    res = "Selamat malam hari  🌌"
+    res = "Selamat malam   🌌"
   }
   return res
 }
