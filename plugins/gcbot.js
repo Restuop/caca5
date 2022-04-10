@@ -4,8 +4,8 @@ let botol = global.botwm
 let str = `
 ╭═══════════════════════
 ║╭──❉ 〔 ⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪ 〕 ❉────── 
-║│➸ *_GROUP OFFC ZIFABOTZ_*
-║│➸  *https://chat.whatsapp.com/I8Q4oJVw8buHhIgMH5iVAv*
+║│➸ *_GROUP OFFC CACABOTZ_*
+║│➸  *https://chat.whatsapp.com/GecOFLezo5lBZkMySQTPk7*
 ╰─────────❉
 ▌│█║▌║▌║║▌║▌║█│▌
 ⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪⸙ by.rozi
