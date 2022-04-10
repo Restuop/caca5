@@ -8,7 +8,7 @@ let str = `
 ║│➸  *https://youtube.com/channel/UCSScI6NnXE0dQ1HCnPUUSKQ*
 ╰─────────❉
 ▌│█║▌║▌║║▌║▌║█│▌
-⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪⸙ by.rozi
+⳹ ❋ཻུ۪۪cacabotz⳹ ❋ཻུ۪۪⸙ by.Ryu
 `.trim()
 conn.sendButton(m.chat, str, `${botol}`, `⋮☰ Menu`, `.menu`, m)
 }
