@@ -4,7 +4,7 @@
 // Zifabotz
 
 let fs = require('fs')
-global.owner = ['6289696163176', '6289696163176','6289696163176', '6289696163176', '6289696163176'] // 6289696163176
+global.owner = ['6289636022073', '6289636022073','6289636022073', '6289636022073', '6289636022073'] // 6289636022073
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -49,7 +49,7 @@ global.eror = '「❗」Server  ERROR !'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.watermark = '© Caca botz' //change the watermark 
 global.image = 'https://telegra.ph/file/052ca138a613c8859756f.jpg' //change the image
-global.thumbfoto = 'https://telegra.ph/file/3c11a4cda6bce78a2e2f7.jpg'
+global.thumbfoto = 'https://i.pinimg.com/736x/9d/5e/32/9d5e3259c72c2d99abe78d797c3363b9.jpg'
 
 // image
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
