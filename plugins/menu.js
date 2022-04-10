@@ -9,7 +9,7 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ╭═══════════════════════⬣
-║╭──❉ 〔⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪〕 ❉──────
+║╭──❉ 〔⳹ ❋ཻུ۪۪cacabotz⳹ ❋ཻུ۪۪〕 ❉──────
 ║│➸Hai, %name!
 ║│➸Tersisa *%limit Limit*
 ║│➸Role *%role*
@@ -32,7 +32,7 @@ const defaultMenu = {
   body: '║│➸%cmd %islimit %isPremium',
   footer: '*╰───❉*\n',
   after: `
-  ⬣━〔Powered By Rozi〕━⬣
+  ⬣━  Powered By Ryu  ━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -222,7 +222,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `╭═══════════════════════
-║╭──❉ 〔 ⳹ ❋ཻུ۪۪zifabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
+║╭──❉ 〔 ⳹ ❋ཻུ۪۪cacabotz⳹ ❋ཻུ۪۪ 〕 ❉────── 
 ║│➸⏰Aktif selama ${uptime}
 ║│➸⚡Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ║│➸ Nama bot: *zifabotz*
@@ -231,7 +231,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ║│➸ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ╰─────────❉
 _____••••••••• 
-⬣━〔Powered By Rozi〕━⬣
+⬣━  Powered By Ryu  ━⬣
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
                         "footerText": "*group offc bot https://bit.ly/3IKkoym*",
                         "buttonText": "««TAMPILAN MENU««",
@@ -244,7 +244,7 @@ _____•••••••••
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Daftar╼-",
-                                    "description": "Daftar diri anda di zifabotz",
+                                    "description": "Daftar diri anda di cacabotz",
                                     "rowId": ".daftar"
                                 }, {
  "title":      "|🎲| ❯╾Setelan grub╼-",
@@ -252,7 +252,7 @@ _____•••••••••
                                     "rowId": ".setelangrub"
                                 }, {
 "title":      "|🛒| ❯╾Store Menu╼-",
-                                    "description": "store di zifabotz",
+                                    "description": "store di cacabotz",
                                     "rowId": ".iklan"
                                 }, {
   "title":  "|👩‍💻| ❯╾jadibot╼-",
@@ -310,7 +310,7 @@ _____•••••••••
                                     "description": "XP Dan Level",
                                     "rowId": ".? xp"
                                 }, { 
-                                    "title": "|🔞|─────「 8 」",
+                                    "title": "|🐼|─────「 8 」",
                                     "description": "Astarfirullah,Tobat Banh",
                                     "rowId": ".? nsfw"
                                 }, { 
@@ -413,15 +413,15 @@ _____•••••••••
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner ZIFABOTZ",
-                                    "description": "pemilik ZIFABOTZ",
+                                    "title": "|👩‍💻| Owner CACABOTZ",
+                                    "description": "pemilik CACABOTZ",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules zifabotz",
+                                    "title": "|🖨️| Rules cacabotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules"
                                 }, {
@@ -554,16 +554,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "udah malam tidur gih •>•"
   if (time >= 4) {
-    res = "Selamat pagi hari bro 🌅"
+    res = "Selamat pagi hari  🌅"
   }
   if (time > 10) {
-    res = "Selamat siang hari bro 🏜️"
+    res = "Selamat siang hari 🏜️"
   }
   if (time >= 15) {
-    res = "Selamat sore hari bro 🌄"
+    res = "Selamat sore hari  🌄"
   }
   if (time >= 18) {
-    res = "Selamat malam hari bro 🌌"
+    res = "Selamat malam hari  🌌"
   }
   return res
 }
