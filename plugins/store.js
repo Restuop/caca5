@@ -234,7 +234,7 @@ _____•••••••••
 (_𝙱𝚎𝚋𝚎𝚛𝚊𝚙𝚊 𝚋𝚞𝚝𝚝𝚘𝚗 𝚊𝚍𝚊 𝚢𝚐 𝚐𝚊𝚔 𝚋𝚎𝚛𝚏𝚞𝚗𝚐𝚜𝚒_)
 
 ▌│█║▌║▌║║▌║▌║█│▌ `.trim(),
-                        "footerText": "⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪⸙ by.rozi",
+                        "footerText": "⳹ ❋ཻུ۪۪⸙𝙕𝙞𝙛𝙖𝙗𝙤𝙩𝙯⳹ ❋ཻུ۪۪⸙ by.Ryu",
                         "buttonText": "««TAMPILAN MENU««",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -245,7 +245,7 @@ _____•••••••••
                                     "rowId": ".donasi"
                                 }, {
                                     "title":      "|🖼️| ❯╾Profile╼-",
-                                    "description": "indentitas kamu di zifabotz.",
+                                    "description": "indentitas kamu di cacabotz.",
                                     "rowId": ".profile"
                                 }, {
                                     "title": "|💵|  ❯╾Sewa bot╼-",
@@ -287,7 +287,7 @@ _____•••••••••
                                     "description": "XP Dan Level",
                                     "rowId": ".? xp"
                                 }, { 
-                                    "title": "|🔞|─────「8」",
+                                    "title": "|🐼|─────「8」",
                                     "description": "Astarfirullah,Tobat Banh",
                                     "rowId": ".? nsfw"
                                 }, { 
@@ -378,15 +378,15 @@ _____•••••••••
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "|👩‍💻| Owner ZIFABOTZ",
-                                    "description": "pemilik ZIFABOTZ",
+                                    "title": "|👩‍💻| Owner CACABOTZ",
+                                    "description": "pemilik CACABOTZ",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|🛠|Status bot",
                                     "description": "Status dan informasi bot",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "|🖨️| Rules zifabotz",
+                                    "title": "|🖨️| Rules cacabotz",
                                     "description": "Mari menaati peraturan demi Kita bersama",
                                     "rowId": ".rules"
                                 }, {
