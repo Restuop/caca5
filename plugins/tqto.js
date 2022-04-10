@@ -3,8 +3,8 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fet
 BIG THANKS TO
 ╭═══════════════════════
 ║╭──❉ 〔 TERIMAKASIH 〕 ❉──────
-║│➸ *OWNER* : *_ROZI_*
-║│➸ *BOT*: *_ZIFABOTZ_*
+║│➸ *OWNER* : *_Ryu_*
+║│➸ *BOT*: *_CACABOTZ_*
 ║│➸ *_LAYANAN API_*
 ║│➸ *_ALYA_*
 ║│➸ *_BOTCAHX_*
